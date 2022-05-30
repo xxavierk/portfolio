@@ -11,4 +11,3 @@ $id = $_GET['id']?? 0;
 // Routeur
 $global->router($page);
 
-// nouveau commentaire
