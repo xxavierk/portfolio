@@ -8,6 +8,11 @@ $page = $_GET['page']?? '';
 $id = $_GET['id']?? 0;
 
 
+/*
+un autre dev a ajouté du code ici 
+*/
+
+
 // Routeur
 $global->router($page);
 
