@@ -1,0 +1,133 @@
+
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+
+h1 {
+    text-align: center;
+    color: #888;
+}
+
+nav {
+    display: flex;
+    justify-content:center;
+}
+
+nav a {
+    margin: 0 10px;
+    padding: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    color:#444;
+}
+
+nav a:hover {
+    color:#F93;
+}
+
+
+/* Gallery */
+
+.gallery_list {
+    display:flex;
+    flex-direction: column;
+}
+
+.gallery_list_item {
+    border:1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    border-radius:5px;
+}
+
+.gallery_infos {
+    border:1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    border-radius:5px;
+}
+
+.photo_list {
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+
+.photo_list_item {
+    border:1px solid #ccc;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius:5px;
+}
+
+.photo_list_item img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+
+.photo_container {
+    display:flex;
+    align-items: flex-start;
+}
+
+.photo_infos {
+    max-width:70%;
+}
+
+.photo_infos img {
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+}
+
+
+
+.comment {
+   width: 30%;
+    
+}
+
+.formulaire, .contenu {
+    padding: 10px;
+    margin: 1%;
+    border:1px solid #ccc;
+    box-sizing:border-box;
+}
+
+.formulaire form {
+    display:flex;
+    flex-direction:column;
+}
+
+.formulaire input, .formulaire textarea {
+   margin: 10px;
+   padding: 10px;
+   font-size: 16px;
+   color:#006;
+}
+
+.list {
+    border-top : 4px solid #888;
+}
+
+.list_item {
+    width: 98%;
+    padding: 10px;
+    margin: 1%;
+    border:1px solid #ccc;
+    box-sizing:border-box;
+}
+
+.list_item p {
+    font-size: 12px;
+    color:#888;
+    margin-left: 20px;
+    border-left: 1px solid #ccc;
+    padding: 10px 20px;
+}
