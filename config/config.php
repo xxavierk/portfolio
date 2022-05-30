@@ -7,6 +7,7 @@ const BASE  = 'xaviersutter_portfolio';
         
 const CONTROLLER_FOLDER = 'controller/';
 
+// route list
 const ROUTES = [
         'about' => 'about.php',
         'contact' =>  'contact.php',
