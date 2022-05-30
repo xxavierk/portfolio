@@ -11,3 +11,10 @@ $id = $_GET['id']?? 0;
 // Routeur
 $global->router($page);
 
+/*
+Je continu à travailler sur mon fichier
+
+Je rajoute plein de code
+
+*/
+
